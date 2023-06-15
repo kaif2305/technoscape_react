@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Tsukimi+Rounded:wght@300;400;500;600;700&display=swap');
+
+footer {
+    /* height: 75vh; */
+    background: #0c6e98;
+    width: 100%;
+    bottom: 0;
+    display: block;
+    margin-top: 0%;
+    z-index: 0;
+}
+
+.footer-content {
+    font-family: 'Montserrat';
+    width: 100%;
+    background: #0c6e98;
+    height: 100%
+}
+
+.left-content {
+    padding-top: 5%;
+    min-width: 30%;
+}
+
+.left-content h1 {
+    font-size: calc(0.6*(1vh + 1vw));
+    font-weight: 600;
+    color: white;
+}
+
+.left-content h4 {
+    font-size: calc(0.5*(1vh + 1vw));
+    font-weight: 400;
+    color: white;
+    margin-top: 2%;
+}
+
+.left-content img {
+    width: 240px;
+    margin-bottom: 5%;
+    object-fit: contain;
+}
+
+.details {
+    width: 100%;
+    display: flex;
+    left: 0;
+    flex-direction: column;
+}
+
+.details img {
+    width: 20%;
+    height: 70%;
+    object-fit: contain;
+}
+
+.address {
+    margin: 0;
+}
+
+.address p {
+    color: white;
+    font-size: calc(0.6*(1vh + 1vw));
+    padding: 0;
+    margin: 0;
+}
+
+.container2 {
+    padding-top: 13.5%;
+    min-width: 28%;
+}
+
+.container2 h3 {
+    font-size: calc(0.5*(1vh + 1vw));
+    color: white;
+    font-weight: 300;
+}
+
+/* .msg-phn {
+
+    margin-bottom: 5%;
+    margin-right: 5%;
+    flex-direction: row;
+} */
+
+.msg-phn img {
+    width: 16px;
+    height: 16px;
+    object-fit: contain;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+.nav {
+    height: 14%;
+    font-size: 15px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.calc-container {
+    /* width: 40%; */
+    /* display: flex;
+    flex-direction: column; */
+    min-width: 37%;
+    padding-top: 8%;
+}
+
+.calc-container h1 {
+    font-size: calc(1.1*(1vh + 1vw));
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: 400;
+}
+
+.calc-container h2 {
+    font-size: calc(0.5*(1vh + 1vw));
+    margin: 0;
+    padding: 0;
+    letter-spacing: 1px;
+    color: white;
+    font-weight: 400;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+
+.calc-details {
+    width: 100%;
+}
+
+.detail-cont {
+    display: flex;
+    flex-direction: row;
+}
+
+.detail-cont input {
+    width: 48%;
+    font-size: calc(0.6*(1vh + 1vw));
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    padding-bottom: 4%;
+    margin-top: 5%;
+    margin-right: 2%;
+}
+
+.detail-cont input::placeholder {
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
+.calc-details input {
+    width: 98%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    color: white;
+    padding-bottom: 4%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.calc-details input::placeholder {
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.calc-details input:focus {
+    outline: none;
+}
+
+.calc-container button {
+    background-color: #0c6e98;
+    color: white;
+    padding: 2% 3%;
+    border: 1px solid white;
+    margin-left: 73%;
+    font-size: calc(0.6*(1vh + 1vw));
+    width: 25%;
+    margin-top: 3%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.calc-container button:hover {
+    background-color: white;
+    color: #0c6e98;
+}
+
+.bottom-details {
+    width: 100%;
+    /* height: 170px; */
+    border-top: 1px solid white;
+    background: #0c6e98;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0;
+    margin-top: 5%;
+    padding-bottom: 2%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.bottom-details h1 {
+    font-size: calc(0.5*(1vh + 1vw));
+    width: 100%;
+    color: white;
+    font-weight: 400;
+    padding-top: 1%;
+    font-family: 'Montserrat';
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.bottom-details button {
+    padding: 0.7% 3%;
+    font-size: 15px;
+    margin-top: 0.5%;
+    width: 8%;
+    margin-left: 40%;
+    background-color: #91daa6;
+    color: black;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.bottom-details button:hover {
+    background-color: white;
+}
+
+/* @media screen and (max-width: 1500px) {
+    .footer-content {
+        height: 90%;
+    }
+
+    .left-content {
+        height: 25%;
+    }
+
+    .container2 {
+        height: 25%;
+        margin-bottom: 2%;
+    }
+
+    .left-content h1 {
+        font-size: 12px;
+    }
+
+    .left-content h4 {
+        font-size: 12px;
+    }
+
+    .msg-phn h3 {
+        font-size: 12px;
+    }
+
+    .msg-phn img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .calc-container h1 {
+        font-size: 20px;
+    }
+
+    .calc-container h2 {
+        font-size: 12px;
+    }
+
+    .calc-container input::placeholder {
+        font-size: 12px;
+    }
+
+    .calc-container button {
+        font-size: 12px;
+    }
+
+    .nav {
+        height: 20%;
+    }
+
+    .details {
+        height: 25%;
+    }
+
+    .bottom-details h1 {
+        font-size: 14px;
+    }
+
+    .bottom-details {
+        margin-top: 0%;
+    }
+} */
+
+@media screen and (max-width: 995px) {
+    /* footer {
+        height: 130%;
+    } */
+
+    .content {
+        height: 90%;
+    }
+
+    .left-content img {
+        width: 225px;
+    }
+
+    .left-content {
+        width: 50%;
+        height: 30%;
+    }
+
+    .left-content h1 {
+        font-size: calc(0.6*(1.2vh + 1.2vw));
+    }
+
+    .left-content h4 {
+        font-size: calc(0.5*(1.2vh + 1.2vw));
+    }
+
+    .msg-phn h3 {
+        font-size: calc(0.6*(1.2vh + 1.2vw));
+    }
+
+    .msg-phn img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .container2 {
+        width: 50%;
+        height: 30%;
+        margin-bottom: 5%;
+    }
+
+    .details {
+        height: 25%;
+    }
+
+    .calc-container {
+        width: 100%;
+        height: 30%;
+    }
+
+    .calc-container h1 {
+        font-size: calc(1*(1.2vh + 1.2vw));
+    }
+
+    .calc-container h2 {
+        font-size: calc(0.6*(1.2vh + 1.2vw));
+    }
+
+    .calc-container input::placeholder {
+        font-size: calc(0.6*(1.2vh + 1.2vw));
+    }
+
+    .calc-container button {
+        font-size: calc(0.6*(1.2vh + 1.2vw));
+    }
+
+    .bottom-details {
+        margin-top: 5%;
+    }
+
+    .bottom-details h1 {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: calc(0.5*(1.2vh + 1.2vw));
+    }
+
+    .bottom-details button {
+        width: 20%;
+        height: 20%;
+        margin-left: 50%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+
+    .left-content {
+        width: 90%;
+        height: 25%;
+    }
+
+    .container2 {
+        width: 90%;
+    }
+
+    .left-content img {
+        width: 160px;
+    }
+
+    .left-content h1 {
+        font-size: calc(0.6*(1.5vh + 1.5vw));
+    }
+
+    .left-content h4 {
+        font-size: calc(0.6*(1.5vh + 1.5vw));
+    }
+
+    .msg-phn img {
+        width: 15px;
+        height: 15px;
+    }
+
+    .msg-phn h3 {
+        font-size: calc(0.6*(1.5vh + 1.5vw));
+    }
+
+
+    .calc-container h1 {
+        font-size: calc(1*(1.5vh + 1.5vw));
+    }
+
+    .calc-container h2 {
+        font-size: calc(0.6*(1.5vh + 1.5vw));
+    }
+
+    .calc-container input::placeholder {
+        font-size: calc(0.6*(1.5vh + 1.5vw));
+    }
+
+    .calc-container button {
+        font-size: calc(0.6*(1.5vh + 1.5vw));
+    }
+
+    .bottom-details h1 {
+        font-size: calc(0.5*(1.5vh + 1.5vw));
+    }
+}
