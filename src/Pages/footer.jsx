@@ -43,7 +43,7 @@ export default function Footer() {
                                 </div>
                                 <div className="msg-phn">
                                     <Stack direction='horizontal'>
-                                        <img src="images/phone.png" alt="" />
+                                        <img src="/images/phone.png" alt="" />
                                         <h3>+91 9444-135-437</h3>
                                     </Stack>
                                 </div>
