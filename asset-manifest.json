@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/technoscape_react/static/css/main.fb1cab0f.css",
+    "main.js": "/technoscape_react/static/js/main.56fda4cb.js",
+    "index.html": "/technoscape_react/index.html",
+    "static/media/menu.svg": "/technoscape_react/static/media/menu.cd3eef8fe3c1ac01fa67.svg",
+    "static/media/menu_small.svg": "/technoscape_react/static/media/menu_small.8ef145dddc8e4f2fbde3.svg",
+    "static/media/menu_mobile.svg": "/technoscape_react/static/media/menu_mobile.94e789447e150a14a1a9.svg",
+    "static/media/close.svg": "/technoscape_react/static/media/close.0b1a83088940fd55caba.svg",
+    "static/media/close_small.svg": "/technoscape_react/static/media/close_small.7ff8a57bcd87ae559261.svg",
+    "static/media/close_mobile.svg": "/technoscape_react/static/media/close_mobile.dcb92c3bb0cd5886ab7d.svg",
+    "main.fb1cab0f.css.map": "/technoscape_react/static/css/main.fb1cab0f.css.map",
+    "main.56fda4cb.js.map": "/technoscape_react/static/js/main.56fda4cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fb1cab0f.css",
+    "static/js/main.56fda4cb.js"
+  ]
+}
