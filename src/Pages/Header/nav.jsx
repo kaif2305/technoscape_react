@@ -20,7 +20,7 @@ export default function Nav() {
                             <Stack direction="horizontal" gap={3}>
 
                                 <Image
-                                    src="images/Technoscape black_ black 23_blue_20 logo.png"
+                                    src={process.env.PUBLIC_URL + 'images/Technoscape black_ black 23_blue_20 logo.png'}
                                     alt="logo"
                                 />
 

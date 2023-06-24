@@ -14,7 +14,7 @@ export default function Footer() {
                 <div className="footer-content">
                     <Row>
                         <Col className="left-content" >
-                            <img src="images/logo1.png" alt="" />
+                            <img src={process.env.PUBLIC_URL + "images/logo1.png"} alt="" />
                             <div className="details">
                                 <Stack gap={2}>
                                     <h1>Dr Mahesh Ganesapillai</h1>

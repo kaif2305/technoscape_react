@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Lora:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Tsukimi+Rounded:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Tsukimi+Rounded:wght@300;400;500;600;700&display=swap');
+
+
+
+.wrapper {
+    margin-top: 3%;
+    text-align: center;
+    display: block;
+    position: relative;
+}
+
+.wrapper h1 {
+    font-family: "Montserrat";
+    font-size: calc(1* (1vh + 1vw));
+    font-weight: 400;
+    color: #000000;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.wrapper .page-title h1 {
+    font-family: 'Josefin Sans';
+    font-size: calc(2* (1vh + 1vw));
+}
+
+.wrapper .page-title h3 {
+    font-family: 'Montserrat';
+    font-size: calc(0.7* (1vh + 1vw));
+    font-weight: 400;
+    margin-bottom: 3%;
+}
+
+.our_team {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 3%;
+}
+
+.our_team .team_member {
+    width: 300px;
+    height: 250px;
+    border: 0.1px solid #d8d8d8;
+    border-radius: 20px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background: #ffffff;
+    padding: 20px 10px;
+}
+
+.our_team .team_member .img-container1-partner {
+    width: 100%;
+    height: 70%;
+}
+
+.our_team .team_member .img-container1-partner img {
+    /* width: 150px; */
+    height: 70px;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+}
+
+.our_team .team_member .img-container2-partner {
+    width: 100%;
+    height: 70%;
+}
+
+.our_team .team_member .img-container2-partner img {
+    width: 150px;
+    margin-top: 5%;
+    /* height: 70px; */
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+}
+
+.our_team .team_member .img-container3-partner {
+    width: 100%;
+    height: 70%;
+}
+
+.our_team .team_member .img-container3-partner img {
+    /* width: 200px; */
+    height: 48px;
+    margin-top: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+}
+
+
+.our_team .team_member .img-container-square-partner {
+    width: 100%;
+    height: 70%;
+}
+
+.our_team .team_member .img-container-square-partner img {
+    /* width: 200px; */
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: contain;
+}
+
+
+.our_team .team_member h3 {
+    height: 30%;
+    font-size: calc(0.6* (1vh + 1vw));
+    line-height: 22px;
+    font-weight: 400;
+    font-family: 'Montserrat';
+}
+
+.our_team .team_member .member1_img img {
+    width: 40%;
+    height: 70%;
+}
+
+/* .our_team .team_member h3 {
+    text-transform: uppercase;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    margin: 15px 0 0px;
+} */
+
+.our_team .team_member span {
+    font-size: 10px;
+}
+
+.our_team .team_member p {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+}
+
+
+.our_team .team_member .member_img .social_media .item {
+    margin: 0 10px;
+}
+
+.our_team .team_member .member_img .social_media .fab {
+    color: #8c7ae6;
+    font-size: 20px;
+}
+
+.our_team .team_member .member_img:hover .social_media {
+    transform: scale(1);
+}
+
+
+@media screen and (max-width: 1030px) {
+    .our_team .team_member {
+        width: 270px;
+        height: 210px;
+    }
+
+    .wrapper h1 {
+        font-size: calc(1* (1.2vh + 1.2vw));
+    }
+
+
+    .wrapper .page-title h1 {
+        font-size: calc(2* (1.2vh + 1.2vw));
+    }
+
+    .wrapper .page-title h3 {
+        font-size: calc(0.7* (1.2vh + 1.2vw));
+    }
+
+    .our_team .team_member .img-container1-partner img {
+        /* width: 150px; */
+        height: 60px;
+        margin-top: 8%;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: contain;
+    }
+
+    .our_team .team_member .img-container2-partner img {
+        width: 120px;
+    }
+
+    .our_team .team_member .img-container3-partner img {
+        height: 40px;
+    }
+
+    .our_team .team_member .img-container-square-partner img {
+        height: 80px;
+
+    }
+
+    .our_team .team_member h3 {
+        font-size: calc(0.7* (1.1vh + 1.1vw));
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .our_team .team_member {
+        width: 200px;
+        height: 150px;
+    }
+
+    .wrapper h1 {
+        font-size: calc(1* (1.2vh + 1.2vw));
+    }
+
+
+    .wrapper .page-title h1 {
+        font-size: calc(2* (1.2vh + 1.2vw));
+    }
+
+    .wrapper .page-title h3 {
+        font-size: calc(0.7* (1.2vh + 1.2vw));
+    }
+
+    .our_team .team_member .img-container1-partner img {
+        /* width: 150px; */
+        height: 45px;
+        margin-top: 8%;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: contain;
+    }
+
+    .our_team .team_member .img-container2-partner img {
+        width: 90px;
+    }
+
+    .our_team .team_member .img-container3-partner img {
+        height: 30px;
+    }
+
+    .our_team .team_member .img-container-square-partner img {
+        height: 60px;
+
+    }
+
+    .our_team .team_member h3 {
+        font-size: calc(0.8* (1vh + 1vw));
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .our_team .team_member {
+        width: 180px;
+        height: 140px;
+    }
+
+    .wrapper h1 {
+        font-size: calc(1* (1.2vh + 1.2vw));
+    }
+
+
+    .wrapper .page-title h1 {
+        font-size: calc(2* (1.2vh + 1.2vw));
+    }
+
+    .wrapper .page-title h3 {
+        font-size: calc(0.7* (1.2vh + 1.2vw));
+    }
+
+    .our_team .team_member .img-container1-partner img {
+        /* width: 150px; */
+        height: 45px;
+        margin-top: 8%;
+        margin-left: auto;
+        margin-right: auto;
+        object-fit: contain;
+    }
+
+    .our_team .team_member .img-container2-partner img {
+        width: 90px;
+    }
+
+    .our_team .team_member .img-container3-partner img {
+        height: 30px;
+    }
+
+    .our_team .team_member .img-container-square-partner img {
+        height: 60px;
+
+    }
+
+    .our_team .team_member h3 {
+        font-size: calc(0.8* (1vh + 1vw));
+        line-height: 18px;
+    }
+}
