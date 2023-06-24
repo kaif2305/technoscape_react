@@ -1,7 +1,7 @@
 import React from 'react'
 import Colab_clg from './Header/colab_clg'
 
-import '../Static/css/partners.css'
+import '../static/css/partners.css'
 
 export default function Partners() {
     return (
