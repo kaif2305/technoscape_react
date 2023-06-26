@@ -1,0 +1,387 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+
+.submission-form {
+    width: 100%;
+    border: 1px solid #dddddd;
+    border-radius: 20px;
+    display: block;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 25px 15px;
+    float: right;
+}
+
+.submission-form h6 {
+    font-size: calc(0.8* (1vh + 1vw));
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.input-box {
+    /* width: 100%; */
+    margin-top: 20px;
+}
+
+.input-box label {
+    color: #333;
+    font-size: calc(0.7* (1vh + 1vw));
+}
+
+.input-box-upload label {
+    color: #333;
+    font-size: calc(0.7* (1vh + 1vw));
+}
+
+.input-box input {
+    height: 40px;
+    border: 1px solid #cccccc;
+    border-radius: 12px;
+    font-size: calc(0.6* (1vh + 1vw));
+}
+
+.input-box-upload {
+    margin-top: 3%;
+}
+
+
+
+.custom-file-input::before {
+    content: "Upload File";
+    display: inline-block;
+    background: #F0F0F0;
+    border: 1px solid white;
+    border-radius: 7px;
+    color: #6EAABD;
+    padding: 8px 15px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    /* text-shadow: 1px 1px #fff; */
+    font-weight: 600;
+    margin-top: 1.5%;
+    font-size: calc(0.7* (1vh + 1vw));
+    margin-right: -10%;
+}
+
+.input-box input:focus {
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.column {
+    display: flex;
+    column-gap: 15px;
+}
+
+.gender-box {
+    margin-top: 20px;
+}
+
+.gender-box h3 {
+    color: #333;
+    font-size: calc(0.7* (1vh + 1vw));
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.form :where(.gender-option, .gender) {
+    display: flex;
+    align-items: center;
+    column-gap: 7%;
+    flex-wrap: wrap;
+    font-size: calc(0.7* (1vh + 1vw));
+}
+
+.gender {
+    column-gap: 5px;
+}
+
+.gender input {
+    accent-color: #0C6E98;
+}
+
+.form :where(.gender input, .gender label) {
+    cursor: pointer;
+}
+
+.gender label {
+    color: #707070;
+    font-size: calc(0.7* (1vh + 1vw));
+}
+
+.form .title-box {
+    margin-top: 20px;
+}
+
+.title-box h3 {
+    color: #333;
+    font-size: calc(0.7* (1vh + 1vw));
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.form :where(.title-option, .title) {
+    display: flex;
+    align-items: center;
+    column-gap: 5%;
+    flex-wrap: wrap;
+    font-size: calc(0.7* (1vh + 1vw));
+}
+
+.form .title {
+    column-gap: 5px;
+}
+
+.title input {
+    accent-color: #0C6E98;
+}
+
+.form :where(.title input, .title label) {
+    cursor: pointer;
+}
+
+.title label {
+    color: #707070;
+}
+
+
+.address :where(input, .select-box) {
+    margin-top: 15px;
+}
+
+/* .select-box select {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    color: #707070;
+    font-size: calc(0.6* (1vh + 1vw));
+} */
+
+form button {
+    height: 50px;
+    width: 200px;
+    color: #fff;
+    font-size: calc(0.7* (1vh + 1vw));
+    font-weight: 400;
+    margin-top: 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    transition: all 0.2s ease;
+    background: #76AEC1;
+    display: block;
+}
+
+form button:hover {
+    background: #6798a8;
+}
+
+.select-box select {
+    height: 40px;
+    border: 1px solid #cccccc;
+    border-radius: 12px;
+    margin-top: 2%;
+    font-size: calc(0.6* (1vh + 1vw));
+    width: 100%;
+    outline: none;
+    color: #707070;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+
+.custom-file-input:hover::before {
+    border-color: black;
+}
+
+.custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+
+
+/*Responsive*/
+@media screen and (max-width: 1030px) {
+
+    .submission-form h6 {
+        font-size: calc(0.8* (1.2vh + 1.2vw));
+    }
+
+    .input-box label {
+        font-size: calc(0.7* (1.2vh + 1.2vw));
+    }
+
+    .input-box-upload label {
+        font-size: calc(0.7* (1.2vh + 1.2vw));
+    }
+
+    .input-box input {
+        font-size: calc(0.6* (1.2vh + 1.2vw));
+    }
+
+    .gender-box h3 {
+        font-size: calc(0.7* (1.2vh + 1.2vw));
+    }
+
+    .form :where(.gender-option, .gender) {
+        font-size: calc(0.7* (1.2vh + 1.2vw));
+    }
+
+    .gender label {
+        font-size: calc(0.7* (1.2vh + 1.2vw));
+    }
+
+    .title-box h3 {
+        font-size: calc(0.7* (1.2vh + 1.2vw));
+    }
+
+    .form :where(.title-option, .title) {
+        font-size: calc(0.7* (1.2vh + 1.2vw));
+    }
+
+    .select-box select {
+        font-size: calc(0.6* (1.2vh + 1.2vw));
+    }
+
+    form button {
+        font-size: calc(0.7* (1.2vh + 1.2vw));
+    }
+
+    .custom-file-input::before {
+        font-size: calc(0.7* (1.2vh + 1.2vw));
+    }
+
+}
+
+@media screen and (max-width: 930px) {
+
+    .submission-form h6 {
+        font-size: calc(0.8* (1.5vh + 1.5vw));
+    }
+
+    .input-box label {
+        font-size: calc(0.7* (1.5vh + 1.5vw));
+    }
+
+    .input-box-upload label {
+        font-size: calc(0.7* (1.5vh + 1.5vw));
+    }
+
+    .input-box input {
+        font-size: calc(0.7* (1.5vh + 1.5vw));
+    }
+
+    .gender-box h3 {
+        font-size: calc(0.7* (1.5vh + 1.5vw));
+    }
+
+    .form :where(.gender-option, .gender) {
+        font-size: calc(0.7* (1.5vh + 1.5vw));
+    }
+
+    .gender label {
+        font-size: calc(0.7* (1.5vh + 1.5vw));
+    }
+
+    .title-box h3 {
+        font-size: calc(0.7* (1.5vh + 1.5vw));
+    }
+
+    .form :where(.title-option, .title) {
+        font-size: calc(0.7* (1.5vh + 1.5vw));
+    }
+
+    .select-box select {
+        font-size: calc(0.7* (1.5vh + 1.5vw));
+    }
+
+    form button {
+        font-size: calc(0.7* (1.5vh + 1.5vw));
+    }
+
+    .custom-file-input::before {
+        font-size: calc(0.7* (1.5vh + 1.5vw));
+        margin-right: -25%;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    .submission-form {
+        padding: 14px 0px;
+    }
+
+    .input-box input {
+        height: 32px;
+    }
+
+    .select-box select {
+        height: 35px;
+    }
+
+    form button {
+        height: 40px;
+        width: 150px;
+    }
+
+    .submission-form h6 {
+        font-size: calc(1* (1.5vh + 1.5vw));
+    }
+
+    .input-box label {
+        font-size: calc(0.8* (1.5vh + 1.5vw));
+    }
+
+    .input-box-upload label {
+        font-size: calc(0.8* (1.5vh + 1.5vw));
+    }
+
+    .input-box input {
+        font-size: calc(0.8* (1.5vh + 1.5vw));
+    }
+
+    .gender-box h3 {
+        font-size: calc(0.8* (1.5vh + 1.5vw));
+    }
+
+    .form :where(.gender-option, .gender) {
+        font-size: calc(0.8* (1.5vh + 1.5vw));
+    }
+
+    .gender label {
+        font-size: calc(0.8* (1.5vh + 1.5vw));
+    }
+
+    .title-box h3 {
+        font-size: calc(0.8* (1.5vh + 1.5vw));
+    }
+
+    .form :where(.title-option, .title) {
+        font-size: calc(0.8* (1.5vh + 1.5vw));
+    }
+
+    .select-box select {
+        font-size: calc(0.8* (1.5vh + 1.5vw));
+    }
+
+    form button {
+        font-size: calc(0.8* (1.5vh + 1.5vw));
+    }
+
+    .custom-file-input::before {
+        font-size: calc(0.8* (1.5vh + 1.5vw));
+        margin-right: -25%;
+    }
+
+}

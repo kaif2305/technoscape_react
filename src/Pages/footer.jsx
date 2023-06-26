@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Col from 'react-bootstrap/Col';
 import Stack from 'react-bootstrap/Stack';
 
-import '../static/css/footer.css'
+import '../Static/css/footer.css'
 
 export default function Footer() {
     return (

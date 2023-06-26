@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../static/css/nav.css'
+import '../../Static/css/nav.css'
 import Toggle from './toggle_menu'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -27,7 +27,7 @@ export default function Nav() {
                                 <p>
                                     Vellore Institute of Technology, India
                                     <br />
-                                    December 14-16, 2023
+                                    December 14<sup>th</sup>-16<sup>th</sup>, 2023
                                 </p>
                             </Stack>
                         </div>

@@ -28,7 +28,7 @@
 
 .wrapper .page-title h3 {
     font-family: 'Montserrat';
-    font-size: calc(0.7* (1vh + 1vw));
+    font-size: calc(0.8* (1vh + 1vw));
     font-weight: 400;
     margin-bottom: 3%;
 }
@@ -259,16 +259,16 @@
     }
 
     .wrapper h1 {
-        font-size: calc(1* (1.2vh + 1.2vw));
+        font-size: calc(1* (1.5vh + 1.5vw));
     }
 
 
     .wrapper .page-title h1 {
-        font-size: calc(2* (1.2vh + 1.2vw));
+        font-size: calc(2* (1.5vh + 1.5vw));
     }
 
     .wrapper .page-title h3 {
-        font-size: calc(0.7* (1.2vh + 1.2vw));
+        font-size: calc(0.8* (1.5vh + 1.5vw));
     }
 
     .our_team .team_member .img-container1-partner img {
@@ -294,7 +294,7 @@
     }
 
     .our_team .team_member h3 {
-        font-size: calc(0.8* (1vh + 1vw));
+        font-size: calc(0.7* (1.5vh + 1.5vw));
         line-height: 18px;
     }
 }

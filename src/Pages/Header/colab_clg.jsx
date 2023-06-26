@@ -4,7 +4,7 @@ import Row from 'react-bootstrap/Row';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Col from 'react-bootstrap/Col';
 
-import '../../static/css/colab_clg.css'
+import '../../Static/css/colab_clg.css'
 
 export default function Colab_clg() {
 
